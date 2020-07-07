@@ -1,21 +1,19 @@
 import React from 'react';
 
-function ColorDisplay({ color, rgbColor, invertedColor, isInverted }) {
+function ColorDisplay({ color, rgbColor, invertedColor, rgbInverted, isInverted }) {
 
-        let bg, txtColor, txt;
+        let bg, txtColor, txt, rgbNum;
         if (isInverted) {
             bg = invertedColor;
             txtColor = color;
             txt = invertedColor;
+            rgbNum = rgbInverted.join(',');
         } else {
             bg = color;
             txtColor = invertedColor;
             txt = color;
+            rgbNum = rgbColor.join(',');
         }
-        // const colorStyles = `backgroundColor: #00ffff`;
-        const rgbNum = rgbColor.join(',');
-        // let bg = bgColor;
-        // if (isInverted) bg=bgInverted;
 
         return (
             <div className="color" id="color" style={{backgroundColor: `#${bg}`}}>

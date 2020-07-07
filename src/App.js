@@ -20,15 +20,17 @@ class App extends Component {
 
 
   handleInvertColor() {
-    const hex = this.state.color;
-    if(!isHexColor(hex)) return;
-    const rgb = convert2RGB(hex);
-    const invert = invertHEX(hex);
-    this.setState({
-      color: hex,
-      rgbColor: rgb,
-      invertedColor: invert,
-    })
+    // const hex = this.state.color;
+    // if(!isHexColor(hex)) return;
+    // const rgb = convert2RGB(hex);
+    // const invert = invertHEX(hex);
+    // const rgbInvert = convert2RGB(invert);
+    // this.setState({
+    //   color: hex,
+    //   rgbColor: rgb,
+    //   invertedColor: invert,
+    //   rgbInverted: rgbInvert
+    // })
     this.setState(prevState => ({
       isInverted: !prevState.isInverted
     }));
@@ -36,15 +38,16 @@ class App extends Component {
 
   handleInputColor(e) {
     const inputColor = e.target.value;
-    let rgbInput = [];
     if (inputColor.length === 6 && isHexColor(inputColor)) {
-      rgbInput = convert2RGB(inputColor);
+      let rgbInput = convert2RGB(inputColor);
       let inverted = invertHEX(inputColor);
+      let rgbInvert = convert2RGB(inverted);
 
       this.setState({
         color: inputColor,
+        rgbColor: rgbInput,
         invertedColor: inverted,
-        rgbColor: rgbInput
+        rgbInverted: rgbInvert
       })
       
     }
@@ -64,7 +67,7 @@ class App extends Component {
             <button className="btn-invert" id="btn-invert" onClick={this.handleInvertColor}>complementary</button>
           </div>
         </div>
-        <ColorDisplay color={this.state.color} rgbColor={this.state.rgbColor} invertedColor={this.state.invertedColor} isInverted={this.state.isInverted} />
+        <ColorDisplay color={this.state.color} rgbColor={this.state.rgbColor} invertedColor={this.state.invertedColor} rgbInverted={this.state.rgbInverted} isInverted={this.state.isInverted} />
         <footer>
           <p>
             by adrienhill
