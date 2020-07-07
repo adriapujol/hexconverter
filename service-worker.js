@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/adriapujol/hexconverter/precache-manifest.6d890bdd272e25d5af118904c1532cab.js"
+  "/adriapujol/hexconverter/precache-manifest.2c11dc1b60ae8e764615188cb2e910be.js"
 );
 
 self.addEventListener('message', (event) => {
