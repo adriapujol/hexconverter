@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/adriapujol/hexconverter.git/static/css/main.6e7e8f9e.chunk.css",
-    "main.js": "/adriapujol/hexconverter.git/static/js/main.bdc4ae25.chunk.js",
-    "main.js.map": "/adriapujol/hexconverter.git/static/js/main.bdc4ae25.chunk.js.map",
+    "main.css": "/adriapujol/hexconverter.git/static/css/main.e49089d5.chunk.css",
+    "main.js": "/adriapujol/hexconverter.git/static/js/main.1007cc68.chunk.js",
+    "main.js.map": "/adriapujol/hexconverter.git/static/js/main.1007cc68.chunk.js.map",
     "runtime-main.js": "/adriapujol/hexconverter.git/static/js/runtime-main.7671f2e5.js",
     "runtime-main.js.map": "/adriapujol/hexconverter.git/static/js/runtime-main.7671f2e5.js.map",
     "static/js/2.dde17fb6.chunk.js": "/adriapujol/hexconverter.git/static/js/2.dde17fb6.chunk.js",
     "static/js/2.dde17fb6.chunk.js.map": "/adriapujol/hexconverter.git/static/js/2.dde17fb6.chunk.js.map",
     "index.html": "/adriapujol/hexconverter.git/index.html",
-    "precache-manifest.f92bb71b545505d1a91a6fa4b1498d63.js": "/adriapujol/hexconverter.git/precache-manifest.f92bb71b545505d1a91a6fa4b1498d63.js",
+    "precache-manifest.a1c711557d6a5760e927cc891f4704e3.js": "/adriapujol/hexconverter.git/precache-manifest.a1c711557d6a5760e927cc891f4704e3.js",
     "service-worker.js": "/adriapujol/hexconverter.git/service-worker.js",
-    "static/css/main.6e7e8f9e.chunk.css.map": "/adriapujol/hexconverter.git/static/css/main.6e7e8f9e.chunk.css.map",
+    "static/css/main.e49089d5.chunk.css.map": "/adriapujol/hexconverter.git/static/css/main.e49089d5.chunk.css.map",
     "static/js/2.dde17fb6.chunk.js.LICENSE.txt": "/adriapujol/hexconverter.git/static/js/2.dde17fb6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7671f2e5.js",
     "static/js/2.dde17fb6.chunk.js",
-    "static/css/main.6e7e8f9e.chunk.css",
-    "static/js/main.bdc4ae25.chunk.js"
+    "static/css/main.e49089d5.chunk.css",
+    "static/js/main.1007cc68.chunk.js"
   ]
 }
