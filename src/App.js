@@ -20,17 +20,7 @@ class App extends Component {
 
 
   handleInvertColor() {
-    // const hex = this.state.color;
-    // if(!isHexColor(hex)) return;
-    // const rgb = convert2RGB(hex);
-    // const invert = invertHEX(hex);
-    // const rgbInvert = convert2RGB(invert);
-    // this.setState({
-    //   color: hex,
-    //   rgbColor: rgb,
-    //   invertedColor: invert,
-    //   rgbInverted: rgbInvert
-    // })
+    if (!this.state.color) return;
     this.setState(prevState => ({
       isInverted: !prevState.isInverted
     }));
