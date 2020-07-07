@@ -51,7 +51,7 @@ class App extends Component {
         <div className="title"><span>HEX to RGB</span></div>
         <div className="inputs">
           <div>
-            #<input type="text" maxLength="6" className="hex" id="hex" placeholder="HEX number" onChange={this.handleInputColor}></input>
+            #<input type="text" maxLength="6" className="hex" id="hex" placeholder="HEX" onChange={this.handleInputColor}></input>
           </div>
           <div className="btn-block">
             <button className="btn-invert" id="btn-invert" onClick={this.handleInvertColor}>complementary</button>
@@ -95,16 +95,6 @@ const invertHEX = (hex) => {
   
   return padZero(r) + padZero(g) + padZero(b);
 }
-
-
-//WRONG NUMBER
-
-// const wrongHEX = () => {
-//   colorText.style.color = "#FFFFFF";
-//   colorText.innerHTML = "Not a valid number";
-//   color.style.backgroundColor = "#000000";
-//   // alert("Not a valid number. Make sure it has 6 characters");
-// };
 
   //IS HEX VALID
 
