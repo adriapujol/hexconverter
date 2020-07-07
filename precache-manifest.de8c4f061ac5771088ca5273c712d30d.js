@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59f2142067b28344905504bf062a5f76",
+    "revision": "7706b229b36b5e142bec41677f90bab8",
     "url": "/adriapujol/hexconverter.git/index.html"
   },
   {
-    "revision": "95c8aa857b9fed515876",
-    "url": "/adriapujol/hexconverter.git/static/css/main.e49089d5.chunk.css"
+    "revision": "4d5d17cc316aa5a40a6a",
+    "url": "/adriapujol/hexconverter.git/static/css/main.97345299.chunk.css"
   },
   {
     "revision": "7d2c14c8e4ae91fc0ec4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adriapujol/hexconverter.git/static/js/2.dde17fb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95c8aa857b9fed515876",
-    "url": "/adriapujol/hexconverter.git/static/js/main.1007cc68.chunk.js"
+    "revision": "4d5d17cc316aa5a40a6a",
+    "url": "/adriapujol/hexconverter.git/static/js/main.bccfbd1a.chunk.js"
   },
   {
     "revision": "6a1def6026a314607a4b",
