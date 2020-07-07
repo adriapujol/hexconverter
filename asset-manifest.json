@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/adriapujol/hexconverter/static/css/main.97345299.chunk.css",
-    "main.js": "/adriapujol/hexconverter/static/js/main.bccfbd1a.chunk.js",
-    "main.js.map": "/adriapujol/hexconverter/static/js/main.bccfbd1a.chunk.js.map",
-    "runtime-main.js": "/adriapujol/hexconverter/static/js/runtime-main.2c8c848b.js",
-    "runtime-main.js.map": "/adriapujol/hexconverter/static/js/runtime-main.2c8c848b.js.map",
-    "static/js/2.dde17fb6.chunk.js": "/adriapujol/hexconverter/static/js/2.dde17fb6.chunk.js",
-    "static/js/2.dde17fb6.chunk.js.map": "/adriapujol/hexconverter/static/js/2.dde17fb6.chunk.js.map",
-    "index.html": "/adriapujol/hexconverter/index.html",
-    "precache-manifest.2c11dc1b60ae8e764615188cb2e910be.js": "/adriapujol/hexconverter/precache-manifest.2c11dc1b60ae8e764615188cb2e910be.js",
-    "service-worker.js": "/adriapujol/hexconverter/service-worker.js",
-    "static/css/main.97345299.chunk.css.map": "/adriapujol/hexconverter/static/css/main.97345299.chunk.css.map",
-    "static/js/2.dde17fb6.chunk.js.LICENSE.txt": "/adriapujol/hexconverter/static/js/2.dde17fb6.chunk.js.LICENSE.txt"
+    "main.css": "/hexconverter/static/css/main.97345299.chunk.css",
+    "main.js": "/hexconverter/static/js/main.bccfbd1a.chunk.js",
+    "main.js.map": "/hexconverter/static/js/main.bccfbd1a.chunk.js.map",
+    "runtime-main.js": "/hexconverter/static/js/runtime-main.395fece0.js",
+    "runtime-main.js.map": "/hexconverter/static/js/runtime-main.395fece0.js.map",
+    "static/js/2.dde17fb6.chunk.js": "/hexconverter/static/js/2.dde17fb6.chunk.js",
+    "static/js/2.dde17fb6.chunk.js.map": "/hexconverter/static/js/2.dde17fb6.chunk.js.map",
+    "index.html": "/hexconverter/index.html",
+    "precache-manifest.ed9254b8659bd5b7799cb06f0859d740.js": "/hexconverter/precache-manifest.ed9254b8659bd5b7799cb06f0859d740.js",
+    "service-worker.js": "/hexconverter/service-worker.js",
+    "static/css/main.97345299.chunk.css.map": "/hexconverter/static/css/main.97345299.chunk.css.map",
+    "static/js/2.dde17fb6.chunk.js.LICENSE.txt": "/hexconverter/static/js/2.dde17fb6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c8c848b.js",
+    "static/js/runtime-main.395fece0.js",
     "static/js/2.dde17fb6.chunk.js",
     "static/css/main.97345299.chunk.css",
     "static/js/main.bccfbd1a.chunk.js"
