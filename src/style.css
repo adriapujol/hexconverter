@@ -98,6 +98,10 @@ button:focus {
   margin-top: 0;
 }
 
+.uppercase-txt {
+  text-transform: uppercase;
+}
+
 footer {
   position: absolute;
   bottom: 5px;

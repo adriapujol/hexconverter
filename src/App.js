@@ -8,42 +8,30 @@ class App extends Component {
     this.state = {
       color: '',
       rgbColor: [],
-      bgColor: '',
-      bgInverted: '',
-      textColor: '',
+      invertedColor: '',
+      rgbInverted: '',
       isInverted: false
     };
 
-    this.handleDisplayColor = this.handleDisplayColor.bind(this);
     this.handleInputColor = this.handleInputColor.bind(this);
     this.handleInvertColor = this.handleInvertColor.bind(this);
   
   }
 
 
-  handleDisplayColor() {
+  handleInvertColor() {
     const hex = this.state.color;
     if(!isHexColor(hex)) return;
     const rgb = convert2RGB(hex);
-    const txtColor = invertHEX(hex);
+    const invert = invertHEX(hex);
     this.setState({
       color: hex,
       rgbColor: rgb,
-      bgColor: hex,
-      textColor: txtColor,
-      isInverted: false
+      invertedColor: invert,
     })
-  }
-
-  handleInvertColor(){
-    const color = this.state.color;
-    const invertedColor = invertHEX(color);
-    if(!isHexColor(color)) return;
-    this.setState({
-      bgInverted: invertedColor,
-      textColor: color,
-      isInverted: true
-    })
+    this.setState(prevState => ({
+      isInverted: !prevState.isInverted
+    }));
   }
 
   handleInputColor(e) {
@@ -51,15 +39,17 @@ class App extends Component {
     let rgbInput = [];
     if (inputColor.length === 6 && isHexColor(inputColor)) {
       rgbInput = convert2RGB(inputColor);
+      let inverted = invertHEX(inputColor);
+
       this.setState({
         color: inputColor,
+        invertedColor: inverted,
         rgbColor: rgbInput
       })
       
-    } 
+    }
       
   }
-
 
 
   render() {
@@ -68,15 +58,13 @@ class App extends Component {
         <div className="title"><span>HEX to RGB</span></div>
         <div className="inputs">
           <div>
-            #<input type="text" maxLength="6" className="hex" id="hex" onChange={this.handleInputColor}></input>
+            #<input type="text" maxLength="6" className="hex" id="hex" placeholder="HEX number" onChange={this.handleInputColor}></input>
           </div>
           <div className="btn-block">
-            <button className="btn-display" id="btn-display" onClick={this.handleDisplayColor}>display</button>
             <button className="btn-invert" id="btn-invert" onClick={this.handleInvertColor}>complementary</button>
-            {/* <button className="btn-rgb" id="btn-rgb">rgb</button> */}
           </div>
         </div>
-        <ColorDisplay color={this.state.color} rgbColor={this.state.rgbColor} bgColor={this.state.bgColor} bgInverted={this.state.bgInverted} isInverted={this.state.isInverted} textColor={this.state.textColor}/>
+        <ColorDisplay color={this.state.color} rgbColor={this.state.rgbColor} invertedColor={this.state.invertedColor} isInverted={this.state.isInverted} />
         <footer>
           <p>
             by adrienhill
