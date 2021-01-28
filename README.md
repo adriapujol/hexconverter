@@ -12,5 +12,4 @@ As a web developper and photo retoucher knowing colours names in rgb it's always
 
 Type a HEX number and get the RGB equivalent plus a visual representation of the colour. You can also check the complementary.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
